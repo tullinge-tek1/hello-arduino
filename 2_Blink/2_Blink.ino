@@ -2,12 +2,13 @@
 int blueLed = 13;
 
 void setup() {
-  pinMode(blueLED, OUTPUT);
+  pinMode(blueLed, OUTPUT);
 }
 
 void loop() {
-  digitalWrite(blueLED, HIGH);
+  digitalWrite(blueLed, HIGH);
   delay(1000);
-  digitalWrite(blueLED, LOW);
+  
+  digitalWrite(blueLed, LOW);
   delay(1000);
 }
